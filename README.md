@@ -8,8 +8,9 @@ To download this repository, please run something like this:
 
 ```bash
 mkdir /tmp/joomla_restore && cd $_
-curl -LOJ --silent https://github.com/cavo789/docker_joomla_restore.git/archive/refs/tags/1.0.0.tar.gz
+curl -LOJ --silent https://github.com/cavo789/docker_joomla_restore/archive/refs/tags/1.0.0.tar.gz
 tar -xzvf docker_joomla_restore-1.0.0.tar.gz --strip-components 1 && rm -f docker_joomla_restore-1.0.0.tar.gz
+tar -xzvf docker_joomla_restore.gz --strip-components 1 && rm -f docker_joomla_restore.gz
 ```
 
 Then, once downloaded:
