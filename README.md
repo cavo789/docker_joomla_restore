@@ -19,4 +19,8 @@ Then, once downloaded:
 make import
 ```
 
-The Joomla site will be available on `http://127.0.0.1:8080\kickstart.php`.
+The Joomla site will be available on `http://127.0.0.1:8080/kickstart.php`.
+
+## Administration
+
+Go to `http://127.0.0.1:8080/administrator/index.php` to open your administration page. Login is **joomla** and password is **joomla@secured**.
